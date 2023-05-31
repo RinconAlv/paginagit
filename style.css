@@ -1,0 +1,184 @@
+header{
+    position: static;
+    text-align: center;
+    height: 100px;
+}
+@font-face{
+    font-family: Undertale;
+    src: url(DeterminationMonoWeb.woff) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+footer{
+    height: 75px;
+    text-align: center;
+    position: static;
+    color: white;
+    font-family: undertale;
+}
+body{
+    background-color: black;
+    background-image: url(Fondo.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+h1{
+    margin: 0px;
+    font-family: undertale;
+    color: yellow;
+}
+.logo{
+    position: static;
+    height: 75px;
+    width: 500px;
+}
+
+.caja{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 70%;
+    font-family: undertale;
+    font-size: 20px;
+    border-style: solid;
+    border-color: gray;
+    color: white;
+}
+
+.links{
+    text-decoration: none;
+}
+.titulo{
+    font-size: 70px;
+}
+#dog{
+    position: static;
+    height: 40%;
+}
+#hearth{
+    position: static;
+    height: 33%;
+}
+#box1{
+    position: static;
+    height: 80%;
+}
+#box2{
+    position: static;
+    margin: 0px;
+    width: 20%;
+    float: left;
+}
+#box3{
+    position: static;
+    height: 5%;
+    width: 100%;
+}
+#box3-1{
+    position: static;
+    height: 5%;
+    width: 100%;
+}
+#box3-2{
+    position: static;
+    height: 5%;
+    width: 100%;
+}
+#box3-3{
+    position: static;
+    height: 5%;
+    width: 100%;
+}
+#box3-4{
+    position: static;
+    height: 5%;
+    width: 100%;
+}
+#box4{
+    position: static;
+    margin: 0px;
+    width: 47%;
+    height: 100%;
+    float: left;
+}
+#box5{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 3.5%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#box6{
+    position: static;
+    margin: 0px;
+    width: 30%;
+    float: right;
+}
+#box7{
+    position: static;
+    height: 100%;
+    width: 99%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+@media only screen and (max-width: 950px){
+    #box2{
+        width: 100%;
+    }
+    #box3{
+        position: absolute;
+        width: 40%;
+        height: 30px;
+        left: 5%;
+    }
+    #box3-1{
+        position: absolute;
+        width: 40%;
+        height: 30px;
+        left: 50%;
+        top: 15.4%;
+    }
+    #box3-2{
+        position: absolute;
+        width: 40%;
+        height: 30px;
+        left: 5%;
+        top: 20%;
+    }
+    #box3-3{
+        position: absolute;
+        width: 40%;
+        height: 30px;
+        left: 50%;
+        top: 20%;
+    }
+    #box3-4{
+        position: absolute;
+        width: 40%;
+        height: 30px;
+        left: 27%;
+        top: 25%;
+    }
+    #box4{
+        width: 100%;
+    }
+    #box5{
+        position: static;
+        margin-top: 13%;
+        margin-bottom: 2%;
+        height: 100%;
+        width: 100%;
+    }
+    #box6{
+        width: 100%;
+        margin-top: 16%;
+    }
+    .logo{
+        width: 95%;
+        height: 100%;
+    }
+    
+}
